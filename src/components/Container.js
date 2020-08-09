@@ -1,8 +1,8 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import Card from './Card';
+import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -19,7 +19,7 @@ const useStyles = makeStyles(theme => ({
 export default function FullWidthGrid() {
   const interestsList = [
     {
-      title: 'Motorbikes',
+      title: 'Motorcycles',
       description: ' 1/9 scale Motorcycles',
       imagePath: '/images/IMG_20200609_124608243_MP.jpg'
     },
@@ -29,12 +29,12 @@ export default function FullWidthGrid() {
       imagePath: '/images/IMG_20200516_110930235.jpg'
     },
     {
-      title: 'DollsHouse Miniatures',
+      title: 'Miniatures',
       description: '1/12 scale furniture projects',
       imagePath: '/images/IMG_20200112_191247.jpg'
     },
     {
-      title: 'Mounteneering',
+      title: 'Mountaineering',
       description: 'Annual Trip to Sniezka',
       imagePath: '/images/IMG_20190912_160139.jpg'
     }
@@ -46,11 +46,13 @@ export default function FullWidthGrid() {
       <Grid container spacing={3}>
         {interestsList.map((interest, key) => (
           <Grid key={key} item xs={12} sm={6} md={6} lg={6}>
-            <Card
-              project={interest.title}
-              description={interest.description}
-              imagePath={interest.imagePath}
-            ></Card>
+            <Link to={`/${interest.title}`}>
+              <Card
+                project={interest.title}
+                description={interest.description}
+                imagePath={interest.imagePath}
+              ></Card>
+            </Link>
           </Grid>
         ))}
       </Grid>
