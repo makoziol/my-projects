@@ -7,7 +7,7 @@ import Typography from '@material-ui/core/Typography';
 
 const styles = muiBaseTheme => ({
   card: {
-    maxWidth: 300,
+    maxWidth: 500,
     margin: 'auto',
     transition: '0.5s',
     boxShadow: '0 8px 40px -12px rgba(0,0,0,0.3)',

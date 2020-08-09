@@ -6,7 +6,8 @@ import Card from './Card';
 
 const useStyles = makeStyles(theme => ({
   root: {
-    flexGrow: 1
+    flexGrow: 1,
+    marginTop: '64px'
   },
   paper: {
     padding: theme.spacing(2),
