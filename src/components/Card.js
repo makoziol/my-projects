@@ -5,7 +5,12 @@ function InterestCard({ project, description, imagePath }) {
   return (
     <Card
       raised
-      style={{ margin: '30px', borderRadius: '30px', overflow: 'hidden' }}
+      style={{
+        margin: '30px',
+        borderRadius: '30px',
+        overflow: 'hidden',
+        background: '#d9e6e1'
+      }}
     >
       <Image src={imagePath} wrapped ui={false} />
       <Card.Content>
