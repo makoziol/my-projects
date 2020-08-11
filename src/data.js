@@ -7,7 +7,7 @@ export const INTERESTS = [
   {
     title: 'Motorcycles',
     description: ' 1/9 scale Motorcycles',
-    imagePath: '/images/IMG_20200609_124608243_MP.jpg'
+    imagePath: '/images/IMG_20200619_100128192_MP.jpg'
   },
   {
     title: 'Ships',
@@ -22,11 +22,16 @@ export const INTERESTS = [
   {
     title: 'Mountaineering',
     description: 'Annual Trip to Sniezka',
-    imagePath: '/images/IMG_20190912_160139.jpg'
+    imagePath: '/images/IMG_20190912_130844.jpg'
   },
   {
     title: 'Tourist Trophy',
     description: 'Turist Trophy Isle of Man',
-    imagePath: '/images/IMG_20200609_124608243_MP.jpg'
+    imagePath: '/images/IMG_20190528_085706.jpg'
+  },
+  {
+    title: 'Craig Tara',
+    description: 'Trips to Caravans by the Sea',
+    imagePath: '/images/IMG_20190706_194908.jpg'
   }
 ];
