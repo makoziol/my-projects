@@ -1,42 +1,34 @@
-import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
-import IconButton from '@material-ui/core/IconButton';
-import MenuIcon from '@material-ui/icons/Menu';
+import React, { useState } from 'react';
+import { Menu, Segment } from 'semantic-ui-react';
 
-const useStyles = makeStyles(theme => ({
-  root: {
-    flexGrow: 1
-  },
-  menuButton: {
-    marginRight: theme.spacing(2)
-  },
-  title: {
-    flexGrow: 1
-  }
-}));
+const AppBar = () => {
+  const [activeItem, setActiveItem] = useState('Home');
 
-export default function ButtonAppBar() {
-  const classes = useStyles();
-
+  const handleItemClick = name => setActiveItem(name);
+  const TABS = [
+    'Home',
+    'Mounteneering',
+    'Dolls House',
+    'Motorcycles',
+    'Ships',
+    'Isle of Man TT'
+  ];
   return (
-    <div className={classes.root}>
-      <AppBar position="fixed" color="inherit">
-        <Toolbar>
-          <IconButton
-            edge="start"
-            className={classes.menuButton}
-            aria-label="menu"
-          >
-            <MenuIcon />
-          </IconButton>
-          <Typography variant="h6" className={classes.title}>
-            My interests
-          </Typography>
-        </Toolbar>
-      </AppBar>
-    </div>
+    <Segment inverted>
+      <Menu inverted secondary>
+        {TABS.map((tab, index) => {
+          return (
+            <Menu.Item
+              key={index}
+              name={tab}
+              active={activeItem === tab}
+              onClick={() => handleItemClick(tab)}
+            />
+          );
+        })}
+      </Menu>
+    </Segment>
   );
-}
+};
+
+export default AppBar;
