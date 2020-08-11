@@ -9,7 +9,15 @@ const AppBar = () => {
   const dispatch = useDispatch();
   const activeItem = useSelector(state => state.setActiveTab);
   return (
-    <Menu style={{ backgroundColor: 'transparent' }} fixed="top" borderless>
+    <Menu
+      style={{
+        backgroundColor: 'transparent',
+        border: 'none',
+        boxShadow: 'none'
+      }}
+      fixed="top"
+      borderless
+    >
       {INTERESTS.map((interest, index) => {
         return (
           <Menu.Item
