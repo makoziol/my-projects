@@ -13,7 +13,6 @@ function TouristTrophy() {
       }}
     >
       <AppBar></AppBar>
-      You are in TT
     </div>
   );
 }

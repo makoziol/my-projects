@@ -13,7 +13,6 @@ function Miniatures() {
       }}
     >
       <AppBar></AppBar>
-      You are in miniatures
     </div>
   );
 }

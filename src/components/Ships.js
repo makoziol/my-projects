@@ -13,7 +13,6 @@ function Ships() {
       }}
     >
       <AppBar></AppBar>
-      You are in ships
     </div>
   );
 }
