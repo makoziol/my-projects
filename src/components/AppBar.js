@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import { Menu, Segment } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
+import { useSelector, useDispatch } from 'react-redux';
+import { setActiveTab } from '../actions';
 import { INTERESTS } from '../data';
 
 const AppBar = () => {
-  const [activeItem, setActiveItem] = useState('Home');
-
-  const handleItemClick = name => setActiveItem(name);
+  const dispatch = useDispatch();
+  const activeItem = useSelector(state => state.setActiveTab);
   return (
     <Segment inverted>
       <Menu inverted secondary>
@@ -18,7 +19,7 @@ const AppBar = () => {
               to={`/${interest.title}`}
               name={interest.title}
               active={activeItem === interest.title}
-              onClick={() => handleItemClick(interest.title)}
+              onClick={() => dispatch(setActiveTab(interest.title))}
             />
           );
         })}
