@@ -9,6 +9,7 @@ import Motorcycles from './components/Motorcycles';
 import Miniatures from './components/Miniatures';
 import Mounteneering from './components/Mounteneering';
 import TouristTrophy from './components/TouristTrophy';
+import CraigTara from './components/CraigTara';
 import { createStore } from 'redux';
 import { Provider } from 'react-redux';
 import allReducers from './reducers/index';
@@ -25,6 +26,7 @@ const routing = (
       <Route path="/motorcycles" component={Motorcycles} />
       <Route path="/miniatures" component={Miniatures} />
       <Route path="/Tourist Trophy" component={TouristTrophy} />
+      <Route path="/Craig Tara" component={CraigTara} />
     </Router>
   </Provider>
 );

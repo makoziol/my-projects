@@ -21,7 +21,9 @@ const AppBar = () => {
       {INTERESTS.map((interest, index) => {
         return (
           <Menu.Item
-            style={{ color: 'white' }}
+            style={{
+              color: `${activeItem !== 'Mountaineering' ? 'white' : 'black'}`
+            }}
             key={index}
             as={Link}
             to={`/${interest.title}`}
