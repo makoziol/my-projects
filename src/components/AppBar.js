@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Menu, Segment } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
@@ -9,8 +9,8 @@ const AppBar = () => {
   const dispatch = useDispatch();
   const activeItem = useSelector(state => state.setActiveTab);
   return (
-    <Segment inverted>
-      <Menu inverted secondary>
+    <Segment style={{ margin: 0 }}>
+      <Menu fixed="top" inverted>
         {INTERESTS.map((interest, index) => {
           return (
             <Menu.Item

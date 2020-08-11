@@ -3,7 +3,7 @@ import { Card, Image } from 'semantic-ui-react';
 
 function InterestCard({ project, description, imagePath }) {
   return (
-    <Card>
+    <Card raised style={{ margin: '10px', borderRadius: '30px' }}>
       <Image src={imagePath} wrapped ui={false} />
       <Card.Content>
         <Card.Header>{project}</Card.Header>
