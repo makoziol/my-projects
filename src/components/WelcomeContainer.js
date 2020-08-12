@@ -1,4 +1,5 @@
 import React from 'react';
+import Search from './Search';
 
 function WelcomeContainer() {
   return (
@@ -12,7 +13,9 @@ function WelcomeContainer() {
         color: 'white',
         margin: '0px 0px 0px 0px'
       }}
-    ></div>
+    >
+      <Search />
+    </div>
   );
 }
 

@@ -20,7 +20,7 @@ export default function FullWidthGrid() {
             <Card
               project={interest.title}
               description={interest.description}
-              imagePath={interest.imagePath}
+              image={interest.image}
             ></Card>
           </Link>
         )

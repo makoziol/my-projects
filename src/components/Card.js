@@ -9,7 +9,7 @@ const calc = (x, y) => [
 ];
 const trans = (x, y, s) => ` scale(${s})`;
 
-function InterestCard({ project, description, imagePath }) {
+function InterestCard({ project, description, image }) {
   const [props, set] = useSpring(() => ({
     xys: [0, 0, 1],
     config: { mass: 5, tension: 350, friction: 40 }
@@ -29,7 +29,7 @@ function InterestCard({ project, description, imagePath }) {
           background: '#d9e6e1'
         }}
       >
-        <Image src={imagePath} wrapped ui={false} />
+        <Image src={image} wrapped ui={false} />
         <Card.Content>
           <Card.Header>{project}</Card.Header>
           <Card.Description>{description}</Card.Description>
