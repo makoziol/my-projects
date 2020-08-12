@@ -1,6 +1,6 @@
 import _ from 'lodash';
 import React from 'react';
-import { Search, Grid } from 'semantic-ui-react';
+import { Search, Grid, Sticky } from 'semantic-ui-react';
 import { useSelector, useDispatch } from 'react-redux';
 import {
   setSearchedValue,
@@ -52,9 +52,10 @@ function SearchExampleCategory() {
   };
 
   return (
-    <Grid>
-      <Grid.Column width={8}>
+    <Grid centered>
+      <Grid.Row centered width={12}>
         <Search
+          fluid
           category
           loading={isLoading}
           onResultSelect={(e, data) => handleResultSelect(e, data)}
@@ -68,7 +69,7 @@ function SearchExampleCategory() {
           results={results}
           value={value}
         />
-      </Grid.Column>
+      </Grid.Row>
     </Grid>
   );
 }
