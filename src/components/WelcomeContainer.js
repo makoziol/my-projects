@@ -6,7 +6,6 @@ function WelcomeContainer() {
     <div
       style={{
         height: `${window.innerHeight - 350}px`,
-        font: '20px Comic Sans MS',
         fontSize: '20px',
         padding: '70px 0',
         backgroundSize: 'cover',
