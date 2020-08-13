@@ -10,16 +10,16 @@ import {
 } from '../actions';
 import { INTERESTS } from '../data';
 
-const resultRenderer = ({ title, image, path }) => {
+const resultRenderer = ({ title, image }) => {
   return (
-    <Link to={path} style={{ display: 'flex', flexDirection: 'column' }}>
+    <Link to={`/${title}`} style={{ display: 'flex', flexDirection: 'column' }}>
       <List>{title}</List>
       <Image src={image}></Image>
     </Link>
   );
 };
 
-function Search() {
+function TabSearch() {
   const dispatch = useDispatch();
   const value = useSelector(state => state.setSearchedValue);
   const results = useSelector(state => state.setSearchedResults);
@@ -60,4 +60,4 @@ function Search() {
   );
 }
 
-export default Search;
+export default TabSearch;

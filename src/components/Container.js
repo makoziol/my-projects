@@ -12,9 +12,9 @@ export default function FullWidthGrid() {
   return (
     <div style={{ display: 'flex', width: '100%', overflow: 'auto' }}>
       {INTERESTS.filter(item => {
-        if (value) {
-          return item.title !== 'Home' && item.title === value;
-        } else return item.title !== 'Home';
+        if (!value) {
+          return item.title !== 'Home';
+        } else return null;
       }).map((interest, index) => (
         <Link
           key={index}
