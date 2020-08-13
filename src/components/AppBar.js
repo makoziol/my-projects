@@ -2,7 +2,7 @@ import React from 'react';
 import { Menu } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
-import { setActiveTab } from '../actions';
+import { setActiveTab, setSearchedValue } from '../actions';
 import { INTERESTS } from '../data';
 
 const AppBar = () => {
@@ -29,7 +29,10 @@ const AppBar = () => {
             to={`/${interest.title}`}
             name={interest.title}
             active={activeItem === interest.title}
-            onClick={() => dispatch(setActiveTab(interest.title))}
+            onClick={() =>
+              dispatch(setActiveTab(interest.title)) &&
+              dispatch(setSearchedValue(''))
+            }
           />
         );
       })}
