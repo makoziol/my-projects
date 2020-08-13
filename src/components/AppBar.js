@@ -31,7 +31,8 @@ const AppBar = () => {
             active={activeItem === interest.title}
             onClick={() =>
               dispatch(setActiveTab(interest.title)) &&
-              dispatch(setSearchedValue(''))
+              dispatch(setSearchedValue('')) &&
+              window.scrollTo({ top: 0, left: 0 })
             }
           />
         );
