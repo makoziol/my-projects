@@ -10,7 +10,7 @@ export default function FullWidthGrid() {
   const value = useSelector(state => state.setSearchedValue);
 
   return (
-    <div style={{ display: 'flex', width: '100%', overflow: 'auto' }}>
+    <div style={{ display: 'flex', width: '100%', overflowY: 'hidden' }}>
       {INTERESTS.filter(item => {
         if (!value) {
           return item.title !== 'Home';

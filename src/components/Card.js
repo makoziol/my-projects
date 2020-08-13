@@ -23,6 +23,8 @@ function InterestCard({ project, description, image }) {
       <Card
         raised
         style={{
+          width: '200px',
+          height: '250px',
           margin: '30px',
           borderRadius: '30px',
           overflow: 'hidden',
