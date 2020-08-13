@@ -28,12 +28,17 @@ function TabSearch() {
     dispatch(setSearchedValue(data.result.title));
   const handleSearchChange = e => {
     dispatch(setLoadingStatus(true)) && dispatch(setSearchedValue(e));
+    const homeTabFilteredInterests = INTERESTS.filter(
+      interest => interest.title !== 'Home'
+    );
 
     setTimeout(() => {
       const re = new RegExp(_.escapeRegExp(value), 'i');
       const isMatch = result => re.test(result.title);
       dispatch(setLoadingStatus(false)) &&
-        dispatch(setSearchedResults(_.filter(INTERESTS, isMatch)));
+        dispatch(
+          setSearchedResults(_.filter(homeTabFilteredInterests, isMatch))
+        );
     }, 300);
   };
 
