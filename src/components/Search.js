@@ -19,7 +19,7 @@ const resultRenderer = ({ title, image, path }) => {
   );
 };
 
-function SearchExampleCategory() {
+function Search() {
   const dispatch = useDispatch();
   const value = useSelector(state => state.setSearchedValue);
   const results = useSelector(state => state.setSearchedResults);
@@ -60,4 +60,4 @@ function SearchExampleCategory() {
   );
 }
 
-export default SearchExampleCategory;
+export default Search;
