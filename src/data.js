@@ -74,3 +74,23 @@ export const MOTORCYCLE_KITS_PHOTOS = [
   '/images/IMG_20200531_131142794_MP.jpg',
   '/images/IMG_20200523_125802843.jpg'
 ];
+
+export const MOTORCYCLE_PROJECTS = [
+  {
+    title: 'Italeri 1/9 Manx Norton',
+    description: 'Making of Brand New Kit of Italeri Manx Norton',
+    image: '/images/IMG_20200706_084757060_MP.jpg'
+  },
+  {
+    title: 'Protar 1/9 Manx Norton',
+    description:
+      ' Bought partially finished kit and refurbished it with chain modifications',
+    image: '/images/IMG_20200612_114058686_MP.jpg'
+  },
+  {
+    title: 'Tamiya 1/12 Honda RC166',
+    description:
+      'Exciting New Project. Excellent Tamiya Honda RC166 with four upgrade parts.',
+    image: '/images/IMG_20200516_110930235.jpg'
+  }
+];

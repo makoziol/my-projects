@@ -11,7 +11,7 @@ const AppBar = () => {
   return (
     <Menu
       style={{
-        backgroundColor: 'transparent',
+        backgroundColor: `transparent`,
         border: 'none',
         boxShadow: 'none',
         overflowX: 'auto',
@@ -24,7 +24,7 @@ const AppBar = () => {
         return (
           <Menu.Item
             style={{
-              color: `${activeItem !== 'Mountaineering' ? 'white' : 'black'}`
+              color: `white`
             }}
             key={index}
             as={Link}
