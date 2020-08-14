@@ -11,7 +11,7 @@ const AppBar = () => {
   return (
     <Menu
       style={{
-        backgroundColor: `transparent`,
+        backgroundColor: `black`,
         border: 'none',
         boxShadow: 'none',
         overflowX: 'auto',
