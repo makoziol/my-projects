@@ -8,6 +8,7 @@ function ModalContentImage({ title, description, image, images }) {
   const [open, setOpen] = React.useState(false);
   return (
     <Modal
+      size="tiny"
       onClose={() => setOpen(false)}
       onOpen={() => setOpen(true)}
       open={open}
