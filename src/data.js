@@ -31,41 +31,6 @@ export const INTERESTS = [
   }
 ];
 
-export const TT_PHOTOS = [
-  '/images/IMG_20190528_100116.jpg',
-  '/images/IMG_20190528_085706.jpg',
-  '/images/IMG_20190528_110104.jpg',
-  '/images/IMG_20190528_135558.jpg',
-  '/images/IMG_20190528_140449.jpg',
-  '/images/IMG_20190528_173038.jpg'
-];
-
-export const CRAIG_TARA_PHOTOS = [
-  '/images/IMG_20190706_194856.jpg',
-  'images/IMG_20190706_194914.jpg',
-  '/images/IMG_20190706_195653.jpg',
-  '/images/IMG_20190706_200747.jpg',
-  '/images/IMG_20190706_200756.jpg',
-  '/images/IMG_20190707_103044.jpg'
-];
-
-export const KARPACZ_PHOTOS = [
-  '/images/IMG_20190911_134235.jpg',
-  '/images/IMG_20190911_144407.jpg',
-  '/images/IMG_20190912_122633.jpg',
-  '/images/IMG_20190912_123358.jpg',
-  '/images/IMG_20190912_152731.jpg',
-  '/images/IMG_20190912_152735.jpg',
-  '/images/IMG_20190912_160139.jpg'
-];
-
-export const SHIP_PHOTOS = [
-  '/images/IMG_20200519_101233413.jpg',
-  '/images/IMG_20200512_130605405.jpg',
-  '/images/IMG_20200420_195037476.jpg',
-  '/images/IMG_20200420_205318362.jpg'
-];
-
 export const MOTORCYCLE_PROJECTS = [
   {
     title: 'Protar 1/9 Manx Norton - Before',
@@ -144,6 +109,22 @@ export const SHIP_PROJECTS = [
       '/images/ship/62.jpg',
       '/images/ship/64.jpg',
       '/images/ship/66.jpg'
+    ]
+  }
+];
+
+export const MOUNTAIN_TRIPS = [
+  {
+    title: 'Yearly visit to Snizka in Karpacz',
+    description: 'Selection of photos over the years',
+    image: '/images/mountains/7.jpg',
+    images: [
+      '/images/mountains/1.jpg',
+      '/images/mountains/2.jpg',
+      '/images/mountains/3.jpg',
+      '/images/mountains/4.jpg',
+      '/images/mountains/6.jpg',
+      '/images/mountains/7.jpg'
     ]
   }
 ];
