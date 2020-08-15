@@ -2,6 +2,7 @@ import React from 'react';
 import { Button, Modal } from 'semantic-ui-react';
 import PhotoCarousel from '../components/PhotoCarousel';
 import ProjectCard from '../components/ProjectCard';
+import './Modal.css';
 
 function ModalContentImage({ title, description, image, images }) {
   const [open, setOpen] = React.useState(false);
