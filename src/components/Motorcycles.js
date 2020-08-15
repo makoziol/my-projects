@@ -25,16 +25,19 @@ function Motorcycles() {
         centered
         verticalAlign="middle"
       >
-        {MOTORCYCLE_PROJECTS.map(({ title, description, image }, index) => {
-          return (
-            <Modal
-              key={index}
-              title={title}
-              description={description}
-              image={image}
-            ></Modal>
-          );
-        })}
+        {MOTORCYCLE_PROJECTS.map(
+          ({ title, description, image, images }, index) => {
+            return (
+              <Modal
+                key={index}
+                title={title}
+                description={description}
+                image={image}
+                images={images}
+              ></Modal>
+            );
+          }
+        )}
       </Grid>
     </div>
   );

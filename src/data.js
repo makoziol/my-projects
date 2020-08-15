@@ -27,7 +27,7 @@ export const INTERESTS = [
   {
     title: 'Craig Tara',
     description: 'Trips to Caravans by the Sea',
-    image: '/images/IMG_20190706_194908.jpg'
+    image: '/images/IMG_20190706_195653.jpg'
   }
 ];
 
@@ -66,31 +66,66 @@ export const SHIP_PHOTOS = [
   '/images/IMG_20200420_205318362.jpg'
 ];
 
-export const MOTORCYCLE_KITS_PHOTOS = [
-  '/images/IMG_20200706_084757060_MP.jpg',
-  '/images/IMG_20200618_125642032_MP.jpg',
-  '/images/IMG_20200614_165807268_MP.jpg',
-  '/images/IMG_20200609_124602704_MP.jpg',
-  '/images/IMG_20200531_131142794_MP.jpg',
-  '/images/IMG_20200523_125802843.jpg'
-];
-
 export const MOTORCYCLE_PROJECTS = [
+  {
+    title: 'Protar 1/9 Manx Norton - Before',
+    description: 'Broken kit images',
+    image: '/images/protar/before/0.jpg',
+    images: [
+      '/images/protar/before/0.jpg',
+      '/images/protar/before/1.jpg',
+      '/images/protar/before/2.jpg',
+      '/images/protar/before/3.jpg',
+      '/images/protar/before/4.jpg',
+      '/images/protar/before/5.jpg',
+      '/images/protar/before/6.jpg',
+      '/images/protar/before/7.jpg',
+      '/images/protar/before/8.jpg'
+    ]
+  },
+  {
+    title: 'Protar 1/9 Manx Norton - After',
+    description: 'Finished refurbished kit',
+    image: '/images/protar/after/7.jpg',
+    images: [
+      '/images/protar/after/0.jpg',
+      '/images/protar/after/1.jpg',
+      '/images/protar/after/2.jpg',
+      '/images/protar/after/3.jpg',
+      '/images/protar/after/4.jpg',
+      '/images/protar/after/5.jpg',
+      '/images/protar/after/6.jpg',
+      '/images/protar/after/7.jpg'
+    ]
+  },
   {
     title: 'Italeri 1/9 Manx Norton',
     description: 'Making of Brand New Kit of Italeri Manx Norton',
-    image: '/images/IMG_20200706_084757060_MP.jpg'
-  },
-  {
-    title: 'Protar 1/9 Manx Norton',
-    description:
-      ' Bought partially finished kit and refurbished it with chain modifications',
-    image: '/images/IMG_20200612_114058686_MP.jpg'
+    image: '/images/italery/14.jpg',
+    images: [
+      '/images/italery/0.jpg',
+      '/images/italery/1.jpg',
+      '/images/italery/2.jpg',
+      '/images/italery/3.jpg',
+      '/images/italery/4.jpg',
+      '/images/italery/5.jpg',
+      '/images/italery/6.jpg',
+      '/images/italery/7.jpg',
+      '/images/italery/8.jpg',
+      '/images/italery/9.jpg',
+      '/images/italery/10.jpg',
+      '/images/italery/11.jpg',
+      '/images/italery/12.jpg',
+      '/images/italery/13.jpg',
+      '/images/italery/14.jpg',
+      '/images/italery/15.jpg'
+    ]
   },
   {
     title: 'Tamiya 1/12 Honda RC166',
     description:
       'Exciting New Project. Excellent Tamiya Honda RC166 with four upgrade parts.',
-    image: '/images/IMG_20200516_110930235.jpg'
+    image: '/images/protar/after/7.jpg',
+    images: ['', '']
   }
 ];

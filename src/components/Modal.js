@@ -3,7 +3,7 @@ import { Button, Modal } from 'semantic-ui-react';
 import PhotoCarousel from '../components/PhotoCarousel';
 import ProjectCard from '../components/ProjectCard';
 
-function ModalContentImage({ title, description, image }) {
+function ModalContentImage({ title, description, image, images }) {
   const [open, setOpen] = React.useState(false);
   return (
     <Modal
@@ -22,7 +22,7 @@ function ModalContentImage({ title, description, image }) {
         </Button>
       </Modal.Actions>
       <Modal.Content>
-        <PhotoCarousel />
+        <PhotoCarousel images={images} />
       </Modal.Content>
     </Modal>
   );

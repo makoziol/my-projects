@@ -6,7 +6,7 @@ function CraigTara() {
     <div
       style={{
         height: '1000px',
-        backgroundImage: `url('/images/IMG_20190706_194908.jpg')`,
+        backgroundImage: `url('/images/IMG_20190706_195653.jpg')`,
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         backgroundAttachment: 'fixed'
