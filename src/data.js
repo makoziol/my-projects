@@ -129,3 +129,21 @@ export const MOTORCYCLE_PROJECTS = [
     images: ['', '']
   }
 ];
+
+export const SHIP_PROJECTS = [
+  {
+    title: '1/89 scale Hermione laFayette 1780',
+    description: 'Progress on ship building',
+    image: '/images/ship/66.jpg',
+    images: [
+      '/images/ship/51.jpg',
+      '/images/ship/52.jpg',
+      '/images/ship/53.jpg',
+      '/images/ship/54.jpg',
+      '/images/ship/60.jpg',
+      '/images/ship/62.jpg',
+      '/images/ship/64.jpg',
+      '/images/ship/66.jpg'
+    ]
+  }
+];
