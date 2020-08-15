@@ -27,7 +27,7 @@ export const INTERESTS = [
   {
     title: 'Craig Tara',
     description: 'Trips to Caravans by the Sea',
-    image: '/images/IMG_20190706_195653.jpg'
+    image: '/images/craigtara/2.jpg'
   }
 ];
 
@@ -141,6 +141,21 @@ export const CRAIG_TARA_TRIPS = [
       '/images/craigtara/4.jpg',
       '/images/craigtara/5.jpg',
       '/images/craigtara/6.jpg'
+    ]
+  }
+];
+
+export const ISLE_OF_MAN_TRIPS = [
+  {
+    title: 'Isle of Man TT trips',
+    description: 'Selection of photos over the years',
+    image: '/images/tt/5.jpg',
+    images: [
+      '/images/tt/1.jpg',
+      '/images/tt/2.jpg',
+      '/images/tt/3.jpg',
+      '/images/tt/4.jpg',
+      '/images/tt/5.jpg'
     ]
   }
 ];
