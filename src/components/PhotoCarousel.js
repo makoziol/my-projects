@@ -5,7 +5,7 @@ import './PhotoCarousel.css';
 
 function PhotoCarousel({ images }) {
   return (
-    <Carousel infiniteLoop useKeyboardArrows autoPlay>
+    <Carousel infiniteLoop useKeyboardArrows={true} autoPlay stopOnHover={true}>
       {images.map((photo, index) => (
         <img alt="" key={index} src={photo}></img>
       ))}

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card, Image } from 'semantic-ui-react';
 import { useSpring, animated } from 'react-spring';
+import './ProjectCard.css';
 
 const calc = (x, y) => [
   -(y - window.innerHeight / 2) / 20,
@@ -28,7 +29,7 @@ function ProjectCard({ title, description, image }) {
           overflow: 'hidden'
         }}
       >
-        <Image src={image} wrapped ui={false} />
+        <Image style={{ height: '210px' }} src={image} wrapped ui={false} />
         <Card.Content>
           <Card.Header>{title}</Card.Header>
           <Card.Description>{description}</Card.Description>
