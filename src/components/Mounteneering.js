@@ -9,7 +9,7 @@ function Mounteneering() {
     <div
       style={{
         height: '2000px',
-        backgroundImage: `url('/images/IMG_20190912_130844.jpg')`,
+        backgroundImage: `url('/images/backgrounds/4.jpg')`,
         backgroundSize: 'cover',
         overflow: 'hidden',
         backgroundRepeat: 'no-repeat',

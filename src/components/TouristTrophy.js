@@ -9,7 +9,7 @@ function TouristTrophy() {
     <div
       style={{
         height: '2000px',
-        backgroundImage: `url('/images/IMG_20190528_085706.jpg')`,
+        backgroundImage: `url('/images/backgrounds/5.jpg')`,
         backgroundSize: 'cover',
         overflow: 'hidden',
         backgroundRepeat: 'no-repeat',
