@@ -135,9 +135,6 @@ export const CRAIG_TARA_TRIPS = [
     description: 'Selection of photos over the years',
     image: '/images/craigtara/2.jpg',
     images: [
-      '/images/craigtara/1.jpg',
-      '/images/craigtara/2.jpg',
-      '/images/craigtara/3.jpg',
       '/images/craigtara/4.jpg',
       '/images/craigtara/5.jpg',
       '/images/craigtara/6.jpg'
