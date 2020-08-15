@@ -12,7 +12,11 @@ import { INTERESTS } from '../data';
 
 const resultRenderer = ({ title, image }) => {
   return (
-    <Link to={`/${title}`} style={{ display: 'flex', flexDirection: 'column' }}>
+    <Link
+      onClick={() => window.scrollTo({ top: 0, left: 0 })}
+      to={`/${title}`}
+      style={{ display: 'flex', flexDirection: 'column' }}
+    >
       <List>{title}</List>
       <Image src={image}></Image>
     </Link>
