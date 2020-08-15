@@ -28,7 +28,8 @@ const AppBar = () => {
             }}
             key={index}
             as={Link}
-            to={`/${interest.title}`}
+            to={location => (location.pathname = `/${interest.title}`)}
+            replace
             name={interest.title}
             active={activeItem === interest.title}
             onClick={() =>

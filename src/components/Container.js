@@ -18,7 +18,8 @@ export default function FullWidthGrid() {
       }).map((interest, index) => (
         <Link
           key={index}
-          to={`/${interest.title}`}
+          to={location => (location.pathname = `/${interest.title}`)}
+          replace
           onClick={() => dispatch(setActiveTab(interest.title))}
         >
           <Card

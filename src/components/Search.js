@@ -14,7 +14,8 @@ const resultRenderer = ({ title, image }) => {
   return (
     <Link
       onClick={() => window.scrollTo({ top: 0, left: 0 })}
-      to={`/${title}`}
+      to={location => (location.pathname = `/${title}`)}
+      replace
       style={{ display: 'flex', flexDirection: 'column' }}
     >
       <List>{title}</List>
