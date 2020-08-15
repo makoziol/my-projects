@@ -5,3 +5,9 @@
 .ui.modal > .actions {
   background-color: black;
 }
+
+.ui.modal > .header {
+  background-color: black;
+  color: white;
+  text-align: center;
+}

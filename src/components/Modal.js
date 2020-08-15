@@ -17,13 +17,14 @@ function ModalContentImage({ title, description, image, images }) {
         </div>
       }
     >
+      <Modal.Header>{title}</Modal.Header>
       <Modal.Actions>
         <Button color="green" inverted onClick={() => setOpen(false)}>
-          Close
+          x
         </Button>
       </Modal.Actions>
       <Modal.Content>
-        <PhotoCarousel images={images} />
+        <PhotoCarousel images={images} title={title} />
       </Modal.Content>
     </Modal>
   );
