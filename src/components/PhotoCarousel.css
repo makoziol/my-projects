@@ -29,3 +29,11 @@
   width: 11px;
   height: 11px;
 }
+
+.carousel .thumb {
+  border: none;
+}
+
+.carousel .thumb.selected {
+  border-color: white;
+}

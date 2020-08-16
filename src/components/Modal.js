@@ -38,7 +38,12 @@ function ModalContentImage({ title, description, image, images }) {
         </Button>
       </Modal.Actions>
       <Modal.Content>
-        <PhotoCarousel checked={checked} images={images} title={title} />
+        <PhotoCarousel
+          key={Math.random()}
+          checked={checked}
+          images={images}
+          title={title}
+        />
       </Modal.Content>
     </Modal>
   );

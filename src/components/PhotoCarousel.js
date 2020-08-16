@@ -9,7 +9,7 @@ function PhotoCarousel({ images, checked }) {
       infiniteLoop
       useKeyboardArrows={true}
       autoPlay={checked}
-      stopOnHover={true}
+      stopOnHover={!checked}
     >
       {images.map((photo, index) => (
         <img alt="" key={index} src={photo}></img>
