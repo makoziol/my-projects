@@ -11,3 +11,7 @@
   color: white;
   text-align: center;
 }
+
+.ui.toggle.checkbox label {
+  color: white;
+}

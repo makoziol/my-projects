@@ -1,11 +1,12 @@
-import React from 'react';
-import { Button, Modal } from 'semantic-ui-react';
+import React, { useState } from 'react';
+import { Button, Modal, Checkbox } from 'semantic-ui-react';
 import PhotoCarousel from '../components/PhotoCarousel';
 import ProjectCard from '../components/ProjectCard';
 import './Modal.css';
 
 function ModalContentImage({ title, description, image, images }) {
-  const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = useState(false);
+  const [checked, setChecked] = useState(false);
   return (
     <Modal
       size="tiny"
@@ -19,13 +20,25 @@ function ModalContentImage({ title, description, image, images }) {
       }
     >
       <Modal.Header>{title}</Modal.Header>
-      <Modal.Actions>
+      <Modal.Actions
+        style={{
+          display: 'flex',
+          justifyContent: 'space-between',
+          verticleAlign: 'center'
+        }}
+      >
+        <Checkbox
+          onChange={() => setChecked(!checked)}
+          label="Auto Play On/Off"
+          toggle
+          checked={checked}
+        />
         <Button color="green" inverted onClick={() => setOpen(false)}>
           x
         </Button>
       </Modal.Actions>
       <Modal.Content>
-        <PhotoCarousel images={images} title={title} />
+        <PhotoCarousel checked={checked} images={images} title={title} />
       </Modal.Content>
     </Modal>
   );

@@ -3,9 +3,14 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
 import './PhotoCarousel.css';
 
-function PhotoCarousel({ images }) {
+function PhotoCarousel({ images, checked }) {
   return (
-    <Carousel infiniteLoop useKeyboardArrows={true} autoPlay stopOnHover={true}>
+    <Carousel
+      infiniteLoop
+      useKeyboardArrows={true}
+      autoPlay={checked}
+      stopOnHover={true}
+    >
       {images.map((photo, index) => (
         <img alt="" key={index} src={photo}></img>
       ))}
