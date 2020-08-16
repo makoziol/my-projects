@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Button, Modal, Checkbox } from 'semantic-ui-react';
+import { Modal, Checkbox, Icon } from 'semantic-ui-react';
 import PhotoCarousel from '../components/PhotoCarousel';
 import ProjectCard from '../components/ProjectCard';
 import './Modal.css';
@@ -24,7 +24,8 @@ function ModalContentImage({ title, description, image, images }) {
         style={{
           display: 'flex',
           justifyContent: 'space-between',
-          verticleAlign: 'center'
+          verticleAlign: 'center',
+          alignItems: 'center'
         }}
       >
         <Checkbox
@@ -33,9 +34,13 @@ function ModalContentImage({ title, description, image, images }) {
           toggle
           checked={checked}
         />
-        <Button color="green" inverted onClick={() => setOpen(false)}>
-          x
-        </Button>
+
+        <Icon
+          link
+          color="green"
+          onClick={() => setOpen(false)}
+          name="close"
+        ></Icon>
       </Modal.Actions>
       <Modal.Content>
         <PhotoCarousel

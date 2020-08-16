@@ -15,3 +15,10 @@
 .ui.toggle.checkbox label {
   color: white;
 }
+
+@media only screen and (max-width: 767px) {
+  .ui.modal .actions > .button,
+  .ui.modal .actions > .buttons {
+    margin-bottom: 0 !important;
+  }
+}
