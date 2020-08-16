@@ -26,6 +26,7 @@ export default function FullWidthGrid() {
             project={interest.title}
             description={interest.description}
             image={interest.image}
+            imageSmall={interest.imageSmall}
           ></Card>
         </Link>
       ))}

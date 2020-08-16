@@ -9,7 +9,7 @@ function Ships() {
     <div
       style={{
         height: '2000px',
-        backgroundImage: `url('/images/backgrounds/3.jpg')`,
+        backgroundImage: `url('/images/backgrounds/3medium.jpg')`,
         overflow: 'hidden',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',

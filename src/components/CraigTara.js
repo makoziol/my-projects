@@ -10,7 +10,7 @@ function CraigTara() {
       style={{
         height: '1000px',
         overflow: 'hidden',
-        backgroundImage: `url('/images/backgrounds/6.jpg')`,
+        backgroundImage: `url('/images/backgrounds/6medium.jpg')`,
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         backgroundAttachment: 'fixed'

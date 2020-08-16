@@ -13,7 +13,7 @@ function Motorcycles() {
         overflow: 'hidden',
         backgroundRepeat: 'no-repeat',
         backgroundAttachment: 'fixed',
-        backgroundImage: `url('/images/backgrounds/2.jpg')`
+        backgroundImage: `url('/images/backgrounds/2medium.jpg')`
         // background: 'radial-gradient(circle, #5c0067 0%, #00d4ff 100%)'
         // 'radial-gradient(circle, rgba(207,207,215,1) 0%, rgba(12,191,196,0.46682422969187676) 84%)'
       }}

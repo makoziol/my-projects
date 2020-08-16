@@ -2,32 +2,38 @@ export const INTERESTS = [
   {
     title: 'Home',
     description: '',
-    image: ''
+    image: '',
+    imageSmall: ''
   },
   {
     title: 'Motorcycles',
     description: ' 1/9 scale Motorcycles',
-    image: '/images/backgrounds/2.jpg'
+    image: '/images/backgrounds/2medium.jpg',
+    imageSmall: '/images/backgrounds/2small.jpg'
   },
   {
     title: 'Ships',
     description: '1/89 scale Hermione laFayette 1780',
-    image: '/images/backgrounds/3.jpg'
+    image: '/images/backgrounds/3medium.jpg',
+    imageSmall: '/images/backgrounds/3small.jpg'
   },
   {
     title: 'Mountaineering',
     description: 'Annual Trip to Sniezka',
-    image: '/images/backgrounds/4.jpg'
+    image: '/images/backgrounds/4medium.jpg',
+    imageSmall: '/images/backgrounds/4small.jpg'
   },
   {
     title: 'Tourist Trophy',
     description: 'Turist Trophy Isle of Man',
-    image: '/images/backgrounds/5.jpg'
+    image: '/images/backgrounds/5medium.jpg',
+    imageSmall: '/images/backgrounds/5small.jpg'
   },
   {
     title: 'Craig Tara',
     description: 'Trips to Caravans by the Sea',
-    image: '/images/craigtara/2.jpg'
+    image: '/images/craigtara/2medium.jpg',
+    imageSmall: '/images/craigtara/2small.jpg'
   }
 ];
 
