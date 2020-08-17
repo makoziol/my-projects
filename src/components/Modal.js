@@ -35,10 +35,10 @@ function ModalContentImage({ title, description, image, images, imageSmall }) {
       >
         <Checkbox
           onChange={() => setChecked(!checked)}
-          label="Auto Play On/Off"
           toggle
           checked={checked}
-        />
+          label={{ children: 'Autoplay On/Off' }}
+        ></Checkbox>
         <Icon
           link
           color="green"

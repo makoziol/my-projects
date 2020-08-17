@@ -14,14 +14,15 @@ function PhotoCarousel({ images, checked }) {
       showThumbs={false}
     >
       {images.map((photo, index) => (
-        <ProgressiveImage
-          key={index}
-          delay={3000}
-          src={photo.normalImage}
-          placeholder={photo.smallImage}
-        >
-          {src => <img alt="" src={src}></img>}
-        </ProgressiveImage>
+        <div key={index} style={{ height: '400px' }}>
+          <ProgressiveImage
+            delay={3000}
+            src={photo.normalImage}
+            placeholder={photo.smallImage}
+          >
+            {src => <img alt="" src={src}></img>}
+          </ProgressiveImage>
+        </div>
       ))}
     </Carousel>
   );
