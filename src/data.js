@@ -44,15 +44,42 @@ export const MOTORCYCLE_PROJECTS = [
     image: '/images/protar/before/0.jpg',
     imageSmall: '/images/protar/before/0small.jpg',
     images: [
-      '/images/protar/before/0.jpg',
-      '/images/protar/before/1.jpg',
-      '/images/protar/before/2.jpg',
-      '/images/protar/before/3.jpg',
-      '/images/protar/before/4.jpg',
-      '/images/protar/before/5.jpg',
-      '/images/protar/before/6.jpg',
-      '/images/protar/before/7.jpg',
-      '/images/protar/before/8.jpg'
+      {
+        normalImage: '/images/protar/before/0.jpg',
+        smallImage: '/images/protar/before/0small.jpg'
+      },
+      {
+        normalImage: '/images/protar/before/1.jpg',
+        smallImage: '/images/protar/before/1small.jpg'
+      },
+      {
+        normalImage: '/images/protar/before/2.jpg',
+        smallImage: '/images/protar/before/2small.jpg'
+      },
+      {
+        normalImage: '/images/protar/before/3.jpg',
+        smallImage: '/images/protar/before/3small.jpg'
+      },
+      {
+        normalImage: '/images/protar/before/4.jpg',
+        smallImage: '/images/protar/before/4small.jpg'
+      },
+      {
+        normalImage: '/images/protar/before/5.jpg',
+        smallImage: '/images/protar/before/5small.jpg'
+      },
+      {
+        normalImage: '/images/protar/before/6.jpg',
+        smallImage: '/images/protar/before/6small.jpg'
+      },
+      {
+        normalImage: '/images/protar/before/7.jpg',
+        smallImage: '/images/protar/before/7small.jpg'
+      },
+      {
+        normalImage: '/images/protar/before/8.jpg',
+        smallImage: '/images/protar/before/8small.jpg'
+      }
     ]
   },
   {
@@ -61,14 +88,38 @@ export const MOTORCYCLE_PROJECTS = [
     image: '/images/protar/after/7.jpg',
     imageSmall: '/images/protar/after/7small.jpg',
     images: [
-      '/images/protar/after/0.jpg',
-      '/images/protar/after/1.jpg',
-      '/images/protar/after/2.jpg',
-      '/images/protar/after/3.jpg',
-      '/images/protar/after/4.jpg',
-      '/images/protar/after/5.jpg',
-      '/images/protar/after/6.jpg',
-      '/images/protar/after/7.jpg'
+      {
+        normalImage: '/images/protar/after/0.jpg',
+        smallImage: '/images/protar/after/0small.jpg'
+      },
+      {
+        normalImage: '/images/protar/after/1.jpg',
+        smallImage: '/images/protar/after/1small.jpg'
+      },
+      {
+        normalImage: '/images/protar/after/2.jpg',
+        smallImage: '/images/protar/after/2small.jpg'
+      },
+      {
+        normalImage: '/images/protar/after/3.jpg',
+        smallImage: '/images/protar/after/3small.jpg'
+      },
+      {
+        normalImage: '/images/protar/after/4.jpg',
+        smallImage: '/images/protar/after/4small.jpg'
+      },
+      {
+        normalImage: '/images/protar/after/5.jpg',
+        smallImage: '/images/protar/after/5small.jpg'
+      },
+      {
+        normalImage: '/images/protar/after/6.jpg',
+        smallImage: '/images/protar/after/6small.jpg'
+      },
+      {
+        normalImage: '/images/protar/after/7.jpg',
+        smallImage: '/images/protar/after/7small.jpg'
+      }
     ]
   },
   {
@@ -77,22 +128,70 @@ export const MOTORCYCLE_PROJECTS = [
     image: '/images/italery/14.jpg',
     imageSmall: '/images/italery/14small.jpg',
     images: [
-      '/images/italery/0.jpg',
-      '/images/italery/1.jpg',
-      '/images/italery/2.jpg',
-      '/images/italery/3.jpg',
-      '/images/italery/4.jpg',
-      '/images/italery/5.jpg',
-      '/images/italery/6.jpg',
-      '/images/italery/7.jpg',
-      '/images/italery/8.jpg',
-      '/images/italery/9.jpg',
-      '/images/italery/10.jpg',
-      '/images/italery/11.jpg',
-      '/images/italery/12.jpg',
-      '/images/italery/13.jpg',
-      '/images/italery/14.jpg',
-      '/images/italery/15.jpg'
+      {
+        normalImage: '/images/italery/0.jpg',
+        smallImage: '/images/italery/0small.jpg'
+      },
+      {
+        normalImage: '/images/italery/1.jpg',
+        smallImage: '/images/italery/1small.jpg'
+      },
+      {
+        normalImage: '/images/italery/2.jpg',
+        smallImage: '/images/italery/2small.jpg'
+      },
+      {
+        normalImage: '/images/italery/3.jpg',
+        smallImage: '/images/italery/3small.jpg'
+      },
+      {
+        normalImage: '/images/italery/4.jpg',
+        smallImage: '/images/italery/4small.jpg'
+      },
+      {
+        normalImage: '/images/italery/5.jpg',
+        smallImage: '/images/italery/5small.jpg'
+      },
+      {
+        normalImage: '/images/italery/6.jpg',
+        smallImage: '/images/italery/6small.jpg'
+      },
+      {
+        normalImage: '/images/italery/7.jpg',
+        smallImage: '/images/italery/7small.jpg'
+      },
+      {
+        normalImage: '/images/italery/8.jpg',
+        smallImage: '/images/italery/8small.jpg'
+      },
+      {
+        normalImage: '/images/italery/9.jpg',
+        smallImage: '/images/italery/9small.jpg'
+      },
+      {
+        normalImage: '/images/italery/10.jpg',
+        smallImage: '/images/italery/10small.jpg'
+      },
+      {
+        normalImage: '/images/italery/11.jpg',
+        smallImage: '/images/italery/11small.jpg'
+      },
+      {
+        normalImage: '/images/italery/12.jpg',
+        smallImage: '/images/italery/12small.jpg'
+      },
+      {
+        normalImage: '/images/italery/13.jpg',
+        smallImage: '/images/italery/13small.jpg'
+      },
+      {
+        normalImage: '/images/italery/14.jpg',
+        smallImage: '/images/italery/14small.jpg'
+      },
+      {
+        normalImage: '/images/italery/15.jpg',
+        smallImage: '/images/italery/15small.jpg'
+      }
     ]
   },
   {
@@ -112,14 +211,38 @@ export const SHIP_PROJECTS = [
     image: '/images/ship/66.jpg',
     imageSmall: '/images/ship/66small.jpg',
     images: [
-      '/images/ship/51.jpg',
-      '/images/ship/52.jpg',
-      '/images/ship/53.jpg',
-      '/images/ship/54.jpg',
-      '/images/ship/60.jpg',
-      '/images/ship/62.jpg',
-      '/images/ship/64.jpg',
-      '/images/ship/66.jpg'
+      {
+        normalImage: '/images/ship/51.jpg',
+        smallImage: '/images/ship/51small.jpg'
+      },
+      {
+        normalImage: '/images/ship/52.jpg',
+        smallImage: '/images/ship/52small.jpg'
+      },
+      {
+        normalImage: '/images/ship/53.jpg',
+        smallImage: '/images/ship/53small.jpg'
+      },
+      {
+        normalImage: '/images/ship/54.jpg',
+        smallImage: '/images/ship/54small.jpg'
+      },
+      {
+        normalImage: '/images/ship/60.jpg',
+        smallImage: '/images/ship/60small.jpg'
+      },
+      {
+        normalImage: '/images/ship/62.jpg',
+        smallImage: '/images/ship/62small.jpg'
+      },
+      {
+        normalImage: '/images/ship/64.jpg',
+        smallImage: '/images/ship/64small.jpg'
+      },
+      {
+        normalImage: '/images/ship/66.jpg',
+        smallImage: '/images/ship/66small.jpg'
+      }
     ]
   }
 ];
@@ -131,12 +254,30 @@ export const MOUNTAIN_TRIPS = [
     image: '/images/mountains/7.jpg',
     imageSmall: '/images/mountains/7small.jpg',
     images: [
-      '/images/mountains/1.jpg',
-      '/images/mountains/2.jpg',
-      '/images/mountains/3.jpg',
-      '/images/mountains/4.jpg',
-      '/images/mountains/6.jpg',
-      '/images/mountains/7.jpg'
+      {
+        normalImage: '/images/mountains/1.jpg',
+        smallImage: '/images/mountains/1small.jpg'
+      },
+      {
+        normalImage: '/images/mountains/2.jpg',
+        smallImage: '/images/mountains/2small.jpg'
+      },
+      {
+        normalImage: '/images/mountains/3.jpg',
+        smallImage: '/images/mountains/3small.jpg'
+      },
+      {
+        normalImage: '/images/mountains/4.jpg',
+        smallImage: '/images/mountains/4small.jpg'
+      },
+      {
+        normalImage: '/images/mountains/6.jpg',
+        smallImage: '/images/mountains/6small.jpg'
+      },
+      {
+        normalImage: '/images/mountains/7.jpg',
+        smallImage: '/images/mountains/7small.jpg'
+      }
     ]
   }
 ];
@@ -148,9 +289,18 @@ export const CRAIG_TARA_TRIPS = [
     image: '/images/craigtara/2.jpg',
     imageSmall: '/images/craigtara/2small.jpg',
     images: [
-      '/images/craigtara/4.jpg',
-      '/images/craigtara/5.jpg',
-      '/images/craigtara/6.jpg'
+      {
+        normalImage: '/images/craigtara/4.jpg',
+        smallImage: '/images/craigtara/4small.jpg'
+      },
+      {
+        normalImage: '/images/craigtara/5.jpg',
+        smallImage: '/images/craigtara/5small.jpg'
+      },
+      {
+        normalImage: '/images/craigtara/6.jpg',
+        smallImage: '/images/craigtara/6small.jpg'
+      }
     ]
   }
 ];
@@ -162,11 +312,11 @@ export const ISLE_OF_MAN_TRIPS = [
     image: '/images/tt/5.jpg',
     imageSmall: '/images/tt/5small.jpg',
     images: [
-      '/images/tt/1.jpg',
-      '/images/tt/2.jpg',
-      '/images/tt/3.jpg',
-      '/images/tt/4.jpg',
-      '/images/tt/5.jpg'
+      { normalImage: '/images/tt/1.jpg', smallImage: '/images/tt/1small.jpg' },
+      { normalImage: '/images/tt/2.jpg', smallImage: '/images/tt/2small.jpg' },
+      { normalImage: '/images/tt/3.jpg', smallImage: '/images/tt/3small.jpg' },
+      { normalImage: '/images/tt/4.jpg', smallImage: '/images/tt/4small.jpg' },
+      { normalImage: '/images/tt/5.jpg', smallImage: '/images/tt/5small.jpg' }
     ]
   }
 ];

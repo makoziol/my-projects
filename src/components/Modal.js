@@ -39,7 +39,6 @@ function ModalContentImage({ title, description, image, images, imageSmall }) {
           toggle
           checked={checked}
         />
-
         <Icon
           link
           color="green"
