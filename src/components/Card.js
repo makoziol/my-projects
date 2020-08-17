@@ -30,7 +30,8 @@ function InterestCard({ project, description, image, imageSmall }) {
           margin: '30px',
           borderRadius: '30px',
           overflow: 'hidden',
-          background: '#d9e6e1'
+          background: '#d9e6e1',
+          zIndex: '100'
         }}
       >
         <ProgressiveImage delay={3000} src={image} placeholder={imageSmall}>
