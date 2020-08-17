@@ -40,6 +40,18 @@ const AppBar = () => {
           />
         );
       })}
+      <a
+        href="https://martakoziol.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Menu.Item
+          style={{
+            color: `white`
+          }}
+          name="About Me"
+        ></Menu.Item>
+      </a>
     </Menu>
   );
 };
