@@ -26,7 +26,9 @@ function ProjectCard({ title, description, image, imageSmall }) {
         raised
         style={{
           margin: '10px 30px 30px 30px',
-          overflow: 'hidden'
+          overflow: 'hidden',
+          borderRadius: '30px',
+          zIndex: '100'
         }}
       >
         <ProgressiveImage
