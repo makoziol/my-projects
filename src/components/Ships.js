@@ -23,17 +23,20 @@ function Ships() {
         centered
         verticalAlign="middle"
       >
-        {SHIP_PROJECTS.map(({ title, description, image, images }, index) => {
-          return (
-            <Modal
-              key={index}
-              title={title}
-              description={description}
-              image={image}
-              images={images}
-            ></Modal>
-          );
-        })}
+        {SHIP_PROJECTS.map(
+          ({ title, description, image, images, imageSmall }, index) => {
+            return (
+              <Modal
+                key={index}
+                title={title}
+                description={description}
+                image={image}
+                images={images}
+                imageSmall={imageSmall}
+              ></Modal>
+            );
+          }
+        )}
       </Grid>
     </div>
   );

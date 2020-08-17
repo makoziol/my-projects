@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card, Image } from 'semantic-ui-react';
 import { useSpring, animated } from 'react-spring';
+import ProgressiveImage from 'react-progressive-image';
 import './ProjectCard.css';
 
 const calc = (x, y) => [
@@ -10,7 +11,7 @@ const calc = (x, y) => [
 ];
 const trans = (x, y, s) => ` scale(${s})`;
 
-function ProjectCard({ title, description, image }) {
+function ProjectCard({ title, description, image, imageSmall }) {
   const [props, set] = useSpring(() => ({
     xys: [0, 0, 1],
     config: { mass: 5, tension: 350, friction: 40 }
@@ -25,11 +26,19 @@ function ProjectCard({ title, description, image }) {
         raised
         style={{
           margin: '10px 30px 30px 30px',
-          // borderRadius: '30px',
           overflow: 'hidden'
         }}
       >
-        <Image style={{ height: '210px' }} src={image} wrapped ui={false} />
+        <ProgressiveImage
+          style={{ height: '210px' }}
+          delay={3000}
+          src={image}
+          placeholder={imageSmall}
+        >
+          {src => (
+            <Image style={{ height: '210px' }} src={src} wrapped ui={false} />
+          )}
+        </ProgressiveImage>
         <Card.Content>
           <Card.Header>{title}</Card.Header>
           <Card.Description>{description}</Card.Description>

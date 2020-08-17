@@ -32,8 +32,8 @@ export const INTERESTS = [
   {
     title: 'Craig Tara',
     description: 'Trips to Caravans by the Sea',
-    image: '/images/craigtara/2medium.jpg',
-    imageSmall: '/images/craigtara/2small.jpg'
+    image: '/images/backgrounds/6medium.jpg',
+    imageSmall: '/images/backgrounds/6small.jpg'
   }
 ];
 
@@ -42,6 +42,7 @@ export const MOTORCYCLE_PROJECTS = [
     title: 'Protar 1/9 Manx Norton - Before',
     description: 'Broken kit images',
     image: '/images/protar/before/0.jpg',
+    imageSmall: '/images/protar/before/0small.jpg',
     images: [
       '/images/protar/before/0.jpg',
       '/images/protar/before/1.jpg',
@@ -58,6 +59,7 @@ export const MOTORCYCLE_PROJECTS = [
     title: 'Protar 1/9 Manx Norton - After',
     description: 'Finished refurbished kit',
     image: '/images/protar/after/7.jpg',
+    imageSmall: '/images/protar/after/7small.jpg',
     images: [
       '/images/protar/after/0.jpg',
       '/images/protar/after/1.jpg',
@@ -73,6 +75,7 @@ export const MOTORCYCLE_PROJECTS = [
     title: 'Italeri 1/9 Manx Norton',
     description: 'Making of Brand New Kit of Italeri Manx Norton',
     image: '/images/italery/14.jpg',
+    imageSmall: '/images/italery/14small.jpg',
     images: [
       '/images/italery/0.jpg',
       '/images/italery/1.jpg',
@@ -97,6 +100,7 @@ export const MOTORCYCLE_PROJECTS = [
     description:
       'Exciting New Project. Excellent Tamiya Honda RC166 with four upgrade parts.',
     image: '/images/protar/after/7.jpg',
+    imageSmall: '/images/protar/after/7.jpg',
     images: ['', '']
   }
 ];
@@ -106,6 +110,7 @@ export const SHIP_PROJECTS = [
     title: '1/89 scale Hermione laFayette 1780',
     description: 'Progress on ship building',
     image: '/images/ship/66.jpg',
+    imageSmall: '/images/ship/66small.jpg',
     images: [
       '/images/ship/51.jpg',
       '/images/ship/52.jpg',
@@ -121,9 +126,10 @@ export const SHIP_PROJECTS = [
 
 export const MOUNTAIN_TRIPS = [
   {
-    title: 'Yearly visit to Snizka in Karpacz',
+    title: 'Śnieżka Karpacz',
     description: 'Selection of photos over the years',
     image: '/images/mountains/7.jpg',
+    imageSmall: '/images/mountains/7small.jpg',
     images: [
       '/images/mountains/1.jpg',
       '/images/mountains/2.jpg',
@@ -140,6 +146,7 @@ export const CRAIG_TARA_TRIPS = [
     title: 'Craig Tara trips',
     description: 'Selection of photos over the years',
     image: '/images/craigtara/2.jpg',
+    imageSmall: '/images/craigtara/2small.jpg',
     images: [
       '/images/craigtara/4.jpg',
       '/images/craigtara/5.jpg',
@@ -153,6 +160,7 @@ export const ISLE_OF_MAN_TRIPS = [
     title: 'Isle of Man TT trips',
     description: 'Selection of photos over the years',
     image: '/images/tt/5.jpg',
+    imageSmall: '/images/tt/5small.jpg',
     images: [
       '/images/tt/1.jpg',
       '/images/tt/2.jpg',

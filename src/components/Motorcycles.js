@@ -26,7 +26,7 @@ function Motorcycles() {
         verticalAlign="middle"
       >
         {MOTORCYCLE_PROJECTS.map(
-          ({ title, description, image, images }, index) => {
+          ({ title, description, image, images, imageSmall }, index) => {
             return (
               <Modal
                 key={index}
@@ -34,6 +34,7 @@ function Motorcycles() {
                 description={description}
                 image={image}
                 images={images}
+                imageSmall={imageSmall}
               ></Modal>
             );
           }

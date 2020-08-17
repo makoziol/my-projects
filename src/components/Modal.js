@@ -4,7 +4,7 @@ import PhotoCarousel from '../components/PhotoCarousel';
 import ProjectCard from '../components/ProjectCard';
 import './Modal.css';
 
-function ModalContentImage({ title, description, image, images }) {
+function ModalContentImage({ title, description, image, images, imageSmall }) {
   const [open, setOpen] = useState(false);
   const [checked, setChecked] = useState(false);
   return (
@@ -15,7 +15,12 @@ function ModalContentImage({ title, description, image, images }) {
       open={open}
       trigger={
         <div>
-          <ProjectCard image={image} title={title} description={description} />
+          <ProjectCard
+            image={image}
+            title={title}
+            description={description}
+            imageSmall={imageSmall}
+          />
         </div>
       }
     >

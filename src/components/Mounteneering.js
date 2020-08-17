@@ -23,17 +23,20 @@ function Mounteneering() {
         centered
         verticalAlign="middle"
       >
-        {MOUNTAIN_TRIPS.map(({ title, description, image, images }, index) => {
-          return (
-            <Modal
-              key={index}
-              title={title}
-              description={description}
-              image={image}
-              images={images}
-            ></Modal>
-          );
-        })}
+        {MOUNTAIN_TRIPS.map(
+          ({ title, description, image, images, imageSmall }, index) => {
+            return (
+              <Modal
+                key={index}
+                title={title}
+                description={description}
+                image={image}
+                images={images}
+                imageSmall={imageSmall}
+              ></Modal>
+            );
+          }
+        )}
       </Grid>
     </div>
   );

@@ -24,7 +24,7 @@ function TouristTrophy() {
         verticalAlign="middle"
       >
         {ISLE_OF_MAN_TRIPS.map(
-          ({ title, description, image, images }, index) => {
+          ({ title, description, image, images, imageSmall }, index) => {
             return (
               <Modal
                 key={index}
@@ -32,6 +32,7 @@ function TouristTrophy() {
                 description={description}
                 image={image}
                 images={images}
+                imageSmall={imageSmall}
               ></Modal>
             );
           }
