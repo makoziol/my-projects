@@ -198,9 +198,30 @@ export const MOTORCYCLE_PROJECTS = [
     title: 'Tamiya 1/12 Honda RC166',
     description:
       'Exciting New Project. Excellent Tamiya Honda RC166 with four upgrade parts.',
-    image: '/images/protar/after/7.jpg',
-    imageSmall: '/images/protar/after/7.jpg',
-    images: ['', '']
+    image: '/images/honda/1.jpg',
+    imageSmall: '/images/honda/1small.jpg',
+    images: [
+      {
+        normalImage: '/images/honda/1.jpg',
+        smallImage: '/images/honda/1small.jpg'
+      },
+      {
+        normalImage: '/images/honda/2.jpg',
+        smallImage: '/images/honda/2small.jpg'
+      },
+      {
+        normalImage: '/images/honda/3.jpg',
+        smallImage: '/images/honda/3small.jpg'
+      },
+      {
+        normalImage: '/images/honda/4.jpg',
+        smallImage: '/images/honda/4small.jpg'
+      },
+      {
+        normalImage: '/images/honda/5.jpg',
+        smallImage: '/images/honda/5small.jpg'
+      }
+    ]
   }
 ];
 
