@@ -4,10 +4,17 @@ import Container from './components/Container';
 import AppBar from './components/AppBar';
 import WelcomeContainer from './components/WelcomeContainer';
 import { Sticky } from 'semantic-ui-react';
+import { iOS } from './helpers';
 
 function App() {
   return (
-    <div className="App">
+    <div
+      className="App"
+      style={{
+        backgroundAttachment: iOS() ? 'initial' : '',
+        minHeight: `${window.innerHeight}px`
+      }}
+    >
       <Sticky>
         <AppBar />
       </Sticky>

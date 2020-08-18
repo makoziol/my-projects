@@ -15,7 +15,8 @@ const AppBar = () => {
         border: 'none',
         boxShadow: 'none',
         overflowX: 'auto',
-        whiteSpace: 'nowrap'
+        whiteSpace: 'nowrap',
+        zIndex: '100'
       }}
       fixed="top"
       borderless

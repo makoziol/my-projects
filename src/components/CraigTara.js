@@ -3,17 +3,19 @@ import AppBar from '../components/AppBar';
 import Modal from '../components/Modal';
 import { Grid } from 'semantic-ui-react';
 import { CRAIG_TARA_TRIPS } from '../data';
+import { iOS } from '../helpers';
 
 function CraigTara() {
   return (
     <div
       style={{
-        height: '1000px',
+        minHeight: `${window.innerHeight}px`,
         overflow: 'hidden',
         backgroundImage: `url('/images/backgrounds/6medium.jpg')`,
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
-        backgroundAttachment: 'fixed'
+        backgroundAttachment: iOS() ? 'initial' : 'fixed',
+        backgroundColor: '#c6b294'
       }}
     >
       <AppBar></AppBar>

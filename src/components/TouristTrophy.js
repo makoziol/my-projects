@@ -3,17 +3,19 @@ import AppBar from './AppBar';
 import Modal from '../components/Modal';
 import { Grid } from 'semantic-ui-react';
 import { ISLE_OF_MAN_TRIPS } from '../data';
+import { iOS } from '../helpers';
 
 function TouristTrophy() {
   return (
     <div
       style={{
-        height: '2000px',
+        minHeight: `${window.innerHeight}px`,
         backgroundImage: `url('/images/backgrounds/5medium.jpg')`,
         backgroundSize: 'cover',
         overflow: 'hidden',
         backgroundRepeat: 'no-repeat',
-        backgroundAttachment: 'fixed'
+        backgroundAttachment: iOS() ? 'initial' : 'fixed',
+        backgroundColor: '#81b3e7'
       }}
     >
       <AppBar></AppBar>

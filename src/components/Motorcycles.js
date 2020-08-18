@@ -3,19 +3,19 @@ import AppBar from '../components/AppBar';
 import Modal from '../components/Modal';
 import { Grid } from 'semantic-ui-react';
 import { MOTORCYCLE_PROJECTS } from '../data';
+import { iOS } from '../helpers';
 
 function Motorcycles() {
   return (
     <div
       style={{
-        height: '2000px',
+        minHeight: `${window.innerHeight}px`,
         backgroundSize: 'cover',
         overflow: 'hidden',
         backgroundRepeat: 'no-repeat',
-        backgroundAttachment: 'fixed',
-        backgroundImage: `url('/images/backgrounds/2medium.jpg')`
-        // background: 'radial-gradient(circle, #5c0067 0%, #00d4ff 100%)'
-        // 'radial-gradient(circle, rgba(207,207,215,1) 0%, rgba(12,191,196,0.46682422969187676) 84%)'
+        backgroundAttachment: iOS() ? 'initial' : 'fixed',
+        backgroundImage: `url('/images/backgrounds/2medium.jpg')`,
+        backgroundColor: '#2a2a2a'
       }}
     >
       <AppBar></AppBar>

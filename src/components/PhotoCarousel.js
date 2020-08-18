@@ -18,7 +18,7 @@ function PhotoCarousel({ images, checked }) {
         onChange={index => setRef(images[index].normalImage)}
       >
         {images.map((photo, index) => (
-          <div key={index} style={{ height: '400px' }}>
+          <div key={index} style={{ height: '80%' }}>
             <ProgressiveImage
               delay={3000}
               src={photo.normalImage}
