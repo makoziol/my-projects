@@ -16,7 +16,8 @@ const AppBar = () => {
         boxShadow: 'none',
         overflowX: 'auto',
         whiteSpace: 'nowrap',
-        zIndex: '100'
+        zIndex: '100',
+        position: '-webkit-sticky'
       }}
       fixed="top"
       borderless
