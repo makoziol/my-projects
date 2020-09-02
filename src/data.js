@@ -25,7 +25,7 @@ export const INTERESTS = [
   },
   {
     title: 'Tourist Trophy',
-    description: 'Turist Trophy Isle of Man',
+    description: 'Tourist Trophy Isle of Man',
     image: '/images/backgrounds/5medium.jpg',
     imageSmall: '/images/backgrounds/5small.jpg'
   },
